@@ -1,15 +1,20 @@
 {
-  "manifest_version": 2,
-  "name": "SiteBlocker",
-  "version": "2.1",
-  "minimum_chrome_version": "23",
-  "icons": {
-    "16": "icon-16.png",
-    "128": "icon-128.png"
-  },
-  "app": {
     "background": {
-      "scripts": ["background.js"]
-    }
-  }
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "icons": {
+        "128": "icon-128.png",
+        "16": "icon-16.png"
+    },
+    "manifest_version": 2,
+    "minimum_chrome_version": "23",
+    "name": "SiteBlocker",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ],
+    "version": "0.0.1"
 }
