@@ -1,10 +1,13 @@
 const filter = {
   urls: [
-    '*://www.facebook.com/*',
+    '*://analytics.google.com/*',
     '*://facebook.com/*',
+    '*://github.com/',
+    '*://github.com/notifications',
     '*://news.ycombinator.com/*',
     '*://twitter.com/*',
-    '*://github.com/',
+    '*://www.facebook.com/*',
+    '*://www.reddit.com/*',
   ],
 };
 
